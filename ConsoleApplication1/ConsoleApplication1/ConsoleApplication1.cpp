@@ -31,8 +31,8 @@ int main()
             cin >> login[login_table];
           
             cout << " write password ";
-            cin >> login[table_password];
-            cout << login[login_table];
+            cin >> password[table_password];
+            cout << password[login_table];
             table_password++;
             login_table++;
 
