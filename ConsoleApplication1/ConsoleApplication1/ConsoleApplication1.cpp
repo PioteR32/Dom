@@ -7,8 +7,10 @@ using namespace std;
 
 int main()
 {
+    setlocale(LC_CTYPE, "polish");
     int random;
     int upRangeOfRandom;
+    cout << "Podaj liczbê uczniów obecnych na lekcji";
     cin >> upRangeOfRandom;
     srand(time(NULL));
     random = rand() % upRangeOfRandom + 1;
